@@ -1,0 +1,99 @@
+body{
+    
+    background-image: url('./img/bg.jpg');
+}
+
+.player{
+    margin:100px;
+    background-color: azure;
+    opacity: 95%;
+    border-radius: 2%;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+#player-name{
+    font-size: 30px;
+    background-color:cadetblue;
+    font-weight: 300;
+    padding: 20px;
+    color: aliceblue;
+}
+
+#list-index{
+    font-size: 20px;
+    margin:10px;
+}
+
+#media-name{
+    font-size: 50px;
+    margin:10px;
+}
+
+#media-image{
+    height: 300px;
+    width: 300px;
+    margin:10px;
+    
+}
+
+#media-name{
+    font-size: 30px;
+    margin:10px;
+}
+
+.control-panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+#previous, #play, #next{
+    margin:10px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    width: 100px;
+    text-align: center;
+}
+
+
+.control-time{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+#current-time{
+    margin:10px;
+}
+
+#end-time{
+    margin:10px;
+}
+
+
+.control-volume{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+    padding-bottom: 20px;
+}
+
+#volume-up{
+    margin:10px;
+}
+
+#volume-down{
+    margin:10px;
+}

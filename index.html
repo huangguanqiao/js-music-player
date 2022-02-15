@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Huang's Music Player</title>
+</head>
+
+<body>
+    <div class="player">
+
+        <div class="content">
+            <div id="player-name">Huang's Music Player</div>
+
+            <div id="list-index">PLAYING</div>
+            <div id="media-image"></div>
+            <div id="media-name">Media Name</div>
+            <div id="media-artist">Media Artist</div>
+        </div>
+
+        <div class="control-panel">
+            <div id="previous">Previous</div>
+            <div id="play">Play</div>
+            <div id="next">Next</div>
+        </div>
+
+        <div class="control-time">
+            <div id="current-time">Start</div>
+            <input type="range" id="time-bar" min="0" max="100" value="0">
+            <div id="end-time">End</div>
+        </div>
+
+        <div class="control-volume">
+            <div id="volume-up">Min</div>
+            <input type="range" id="volume-bar" min="0" max="100" value="50">
+            <div id="volume-down">Max</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
